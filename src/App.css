@@ -1,0 +1,30 @@
+.main-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  box-sizing: border-box;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
+.data {
+  padding: 0px 6px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.data:focus {
+  outline: none;
+}
+
+.result {
+  margin-top: 12px;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.5);
+}
